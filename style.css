@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+    font-family: "Helvetica", Arial sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1136px;
+    margin: auto;
+    padding-top: 25px;
+}
+
+#logo {
+    color: #DA0000;
+    text-align: center;
+    font-weight: bolder;
+    line-height: 1em;
+    padding: 10px 0;
+    font-size: 24px;
+    letter-spacing: -1px;
+}
+
+.button-nav {
+    background-color: #DA0000;
+    align-items: center;
+    color: white;
+    padding: 10px 20px;
+    border: 0;
+    margin: 10px 0;
+    width: 223px;
+    height: 50px;
+    font-size: 18px;
+}
+.box-login {
+    margin: 50px auto 0px;
+    align-items: center;
+    width: 450px;
+    border: #ababac 1px solid;
+    box-shadow: 5px 5px red;
+    text-align: center;
+}
+.logo-login {
+    color: #DA0000;
+    text-align: center;
+    font-size: 38px;
+    font-weight: bold;
+    letter-spacing: -2px;
+    line-height: 1em;
+    margin-bottom: 60px;
+}
+
+h1 {
+    letter-spacing: -1px;
+    font-size: 32px;
+    color: #4A5568;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+}
+.subtitulo {
+    color: #9198a4;
+    font-size: 18px;
+    margin: 0 0 30px 0 ;
+}
+.login-form {
+    max-width: 400px
+}
+
+
+.campos {
+    padding-left: 40px;
+}
+
+input[type=text], input[type=password] {
+width: 100%;
+padding: 16px 8px;
+margin: 8px 0;
+display: inline-block;
+border: 1px solid #ccc;
+border-bottom: #DA0000 1px solid;
+box-sizing: border-box;
+font-size: 18px;
+background-color: #EDF2F7;
+}
+
+.loginbutton-box {
+    background-color: #DA0000;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    width: 360px;
+    padding: 20px 50px 20px 50px;
+    margin: 30px 40px 5px 40px;
+    border: 0px;
+}
+
+.esqueceu {
+    color: #9198a4;
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+
+.criarconta-box {
+    background-color: #ffffff;
+    color: #9198a4 ;
+    font-size: 18px;
+    width: 360px;
+    padding: 20px 50px 20px 50px;
+    margin: 35px 40px 40px 40px;
+    border: 1px #9198a4 solid;
+}
+
+.lembrar-container {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    color: #9198a4;
+    letter-spacing: -0.7px;
+}
+
+.lembrar {
+    margin-left: 40px;
+   
+    
+}
